@@ -3,6 +3,7 @@ node_js:
   - "0.10"
 deploy:
   provider: s3
+  skip_cleanup: true
   access_key_id:
     secure: "Sf683FcZebIv2BDZtzeunqDKhsm6oggvFWFapqH6p1+ts9sLKk8qBsUxWlWMS/6mjvwo8W5mvEcmxhmfkWlWi3n+v6wefU60Z/tJ3jkoIobUmoMtasVlWncffNCRtNyyHGhO+2qoeVqoqlCxsB1NSCfYMuRIl6ZYgP/PzZooU4TU1q9zzsF88NhfdJ2x0P4w5x1i56TWGv5fzDoAlWS0y0V6pkTdVCQJnHLhMjep9KFKF/OZuuih643mYKW5KzMwv6Noyku4jWYId1/q2ywY8vDSmcjSqbyeNuiC2IvQCO6BuNs+meL6Ows688DYm7PyFUsdB0coqXJ5efiLCHDOXSkdJ62H3Nz/EQrcoeQT/6ydmKYirJdruGr3/B25ynDbzmcwrOqSGvmjFkzApVZaPHzj/Tav+oiawaUV8nFlBMJNZfYNsqp372aWEK0CCHOW/ES+an//3gkO50FqLINQUmJa7tHYGPJo+uRfuHq1gu0e2Ifbm2DQFUtrzcg+st5tlFjke8CskLPQnYHkxodeDKV1UEm0JojU5nJ8Mb1ghzGFKjX0otHCu2F120OqM6z5dExINlUOhG/1G91/mOun9SDpNtbiDVmd9dHIY1im8cDWuufWVFMZojIQ0XT/lQKFS8eezmc7Bvj9jSWzBfYu3rrM8Sgw9UAjo+B1IBFZcQA="
   secret_access_key:
