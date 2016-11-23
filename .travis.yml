@@ -10,6 +10,5 @@ deploy:
   bucket: travis-sample
   region: ap-northeast-1
   endpoint: s3-ap-northeast-1.amazonaws.com
-  local-dir: public
   on:
     branch: master
