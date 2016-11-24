@@ -10,5 +10,8 @@ deploy:
   bucket: travis-sample
   region: ap-northeast-1
   endpoint: s3-ap-northeast-1.amazonaws.com
+  acl: public_read
+  local-dir: public
+  upload-dir: travis-builds
   on:
     branch: master
